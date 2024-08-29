@@ -30,7 +30,8 @@ app.use(express.json());
 const port = process.env.PORT || 8000;
 
 const allowedOrigins = [
-    'http://localhost:5173',
+        'http://localhost:5173',
+    'https://product-discord.netlify.app',
 ];
 
 const corsOptions = {
